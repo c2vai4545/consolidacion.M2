@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+</head>
+<body>
+    <header class="container text-center my-4">
+        <h1>Mi Portafolio Personal</h1>
+        <p>Bienvenido a mi portafolio, aquí podrás conocer más sobre mis habilidades y proyectos.</p>
+    </header>
+    
+    <section id="about" class="container my-4">
+        <h2>Sobre mí</h2>
+        <p>Mi nombre es Carlos Rafael Nuñez y soy desarrollador web con experiencia en tecnologías frontend y backend.</p>
+    </section>
+    
+    <section id="skills" class="container my-4">
+        <h2>Habilidades</h2>
+        <ul class="list-group">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">Django</li>
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">PHP</li>
+            <li class="list-group-item">Angular</li>
+            <li class="list-group-item">Arduino</li>
+        </ul>
+    </section>
+    
+    <section id="projects" class="container my-4">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/images/terranova.png" class="card-img-top" alt="Terranova GreenPUQ">
+                    <a href="https://terranovagreenpuq.000webhostapp.com/">Pagina Real</a>
+                    <a href="https://github.com/c2vai4545/terranova">GitHub</a>
+                    <div class="card-body">
+                        <h5 class="card-title">Terranova GreenPUQ</h5>
+                        <p class="card-text">Proyecto de titulo implementado en un invernadero real donde se logra monitorear en tiempo real la temperatura, la humedad del ambiente y la humedad del suelo de las plantas. Este proyecto cuenta con dos perfiles de acceso, un administrador quien crea usuarios nuevos, los edita, y tambien puede ver el historico de registros de lectura y los graficos respectivos. Tambien es capaz de ver las condiciones en tiempo real del invernadero y resolver tickets de soporte. Por otro lado hay un perfil de trabajador que tiene acceso al monitoreo en tiempo real mas no a las tareas administrativas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción del Proyecto 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción del Proyecto 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container my-4">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="container text-center my-4">
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="./assets/javascript/bootstrap.min.js"></script>
+    <script src="./assets/javascript/scripts.js"></script>
+</body>
+</html>
