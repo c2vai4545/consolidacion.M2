@@ -23,6 +23,8 @@ footer {
     background-color: aliceblue;
 }
 
-.card-img-top {
+.imagen {
     max-height: 180px;
+    object-fit: cover;
+    width: 100%;
 }
