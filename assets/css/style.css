@@ -22,3 +22,7 @@ footer {
 #contact{
     background-color: aliceblue;
 }
+
+.card-img-top {
+    max-height: 180px;
+}
